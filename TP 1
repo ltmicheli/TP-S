@@ -1,0 +1,99 @@
+/*
+TP 1
+Programa para calcular sumas
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int num1, num2;
+
+    cout << "Ingrese el primer numero: \n";
+    cin >> num1;
+    cout << "Ingrese el segundo numero: \n";
+    cin >> num2;
+
+    cout << "\nLa suma es: " << num1 + num2 << '\n';
+
+
+}
+----------------------------------------------------------
+
+/*
+TP 1
+Programa datos char y bool.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char letra1, letra2;
+    bool validacion;
+
+    cout << "Ingrese la primera letra: \n";
+    cin >> letra1;
+    cout << "Ingrese segunda letra : \n";
+    cin >> letra2;
+    validacion = false;
+    if(letra1 == letra2)
+    {
+        validacion = true;
+        cout << "\nLas letras son iguales.";
+    }
+    else{ cout << "\nLas letras son distintas";}
+
+}
+------------------------------------------------------
+
+/*
+TP 1
+Programa datos string y double.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    long int dni;
+    char Apellido[20],
+         Nombre [20];
+
+    cout << "Ingrese apellido: ";
+    cin >> Apellido;
+    cout << "\nIngrese nombre:";
+    cin >> Nombre;
+    cout << "\nAhora ingrese el DNI: ";
+    cin >> dni;
+    cout << "Apellido y nombre:" << Apellido;
+    cout << ", " << Nombre;
+    cout <<"\nDNI: " << dni;
+}
+------------------------------------------------------
+/*
+TP 1
+Programa datos double.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double Avogadro,
+           Total;
+    int Moles;
+
+    cout << "Escriba el numero de avogadro ( utilice el punto, ej: 6.02e+23): ";
+    cin >> Avogadro;
+    cout << "\nEscriba el numero de moles: ";
+    cin >> Moles;
+    Total = Avogadro * Moles;
+    cout << "\nEl resultado es: " << Total;
+}
+
+
