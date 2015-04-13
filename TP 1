@@ -51,7 +51,7 @@ int main()
 
 /*
 TP 1
-Programa datos string y double.
+Programa datos strings y double.
 */
 
 #include <iostream>
