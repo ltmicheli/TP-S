@@ -9,11 +9,8 @@ main()
   cout << "Ingrese un numero: ";
   cin >> Numero;
   cout << Numero;
-  if(Numero % 2 == 0)
-    {
+  if(Numero % 2 == 0 && Numero != 0)
         cout << "\nEl numero es par";
-    }
-  else { cout << "\nEl numero es impar" ;}
 }
 Ejecutable
 
